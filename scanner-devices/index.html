@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Scanner Devices - Badger Knowledge Base</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../stylesheets/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Scanner Devices";
+        var mkdocs_page_input_path = "scanner-devices.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Badger Knowledge Base
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Scanner Devices</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#compatibility">Compatibility</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#turning-your-scanner-on">Turning Your Scanner On</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#charging-your-scanner">Charging Your Scanner</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wi-fi-setup">Wi-Fi Setup</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-lifecycle">The Lifecycle</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configuring-your-scanner">Configuring Your Scanner</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#tips-and-notes">Tips and Notes</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../scanner-configuration/">Scanner Configuration</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Badger Knowledge Base</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Scanner Devices</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="scanner-devices">Scanner Devices</h1>
+<ul>
+<li><strong>Modules:</strong> Scanning</li>
+<li><strong>Enhances</strong>: Concessions, Incentivization, Physical Access Control</li>
+</ul>
+<h2 id="overview">Overview</h2>
+<p><img alt="" src="/attachments/b1gen1-front.png" /></p>
+<p>Badger features portable, wireless, battery-powered NFC scanners that allow events to link together in-person and online event functions.</p>
+<p>Scanners may sometimes be referred to by their product name: "BX", where the "X" signifies major iterations (e.g. "B1" refers to a "Badger One" unit). These are specialized devices designed, engineered, and assembled internally at GoBadger LLC, running on a custom operating system: BadgerOS (BOS).</p>
+<p>The most current versions available are:</p>
+<ul>
+<li>B1 Gen 1 (bx v1.1.3)</li>
+<li>BadgerOS (bos v1.2.0)</li>
+</ul>
+<h2 id="compatibility">Compatibility</h2>
+<p>Scanners are compatible with Badger-provided NFC event badges.</p>
+<p>Customers sourcing event badges through a third-party are responsible for making sure that their badges are compatible with the <a href="https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf">MFRC522</a> chip. Badger recommends enabling compatibility mode in this instance, which truncates all tag UIDs to the first 4 bytes.</p>
+<h2 id="turning-your-scanner-on">Turning Your Scanner On</h2>
+<p><img alt="" src="/attachments/b1gen1-top.png" /></p>
+<p>To turn your Scanner on, slide the <strong>electrical disconnect switch</strong> at the top of the unit to the <strong>right</strong>. The indicator LEDs will turn on, indicating that the Scanner is booting BadgerOS.</p>
+<p>To discourage tampering by event attendees, the <strong>electrical disconnect switch</strong> is hidden inside of a slot in the case and requires a small stick, such as a paperclip, toothpick, etc. to access.</p>
+<blockquote>
+<p>Fresh Scanners may need to charge their internal capacitors to stabilize operating voltage for the initial first boot. <strong>If the indicator LEDs do not turn on, wait a second and then turn your Scanner off and back on with the electrical disconnect switch.</strong></p>
+</blockquote>
+<h2 id="charging-your-scanner">Charging Your Scanner</h2>
+<p><img alt="" src="/attachments/b1gen1-side.png" /></p>
+<p>To charge your Scanner, make sure that the <strong>electrical disconnect switch</strong> is in the <strong>right-hand</strong> position. Then, use the micro-USB charging port to supply <strong>5 Volts DC</strong>. An LED will turn on in the back to indicate that it is receiving power via the charging port.</p>
+<blockquote>
+<p>To be more specific, Badger Scanners have a USB Micro-B 2.0 charging port; this is what people commonly call "micro-USB."</p>
+</blockquote>
+<p><img alt="" src="/attachments/b1gen1-back.png" /></p>
+<h2 id="wi-fi-setup">Wi-Fi Setup</h2>
+<p><img alt="" src="/attachments/wifi-setup.png" /></p>
+<p>The first time you set up your Scanner, or if you're setting up your Scanner in a new wireless environment, you will be presented with instructions to connect your device to a Wi-Fi network.</p>
+<p>Use your smartphone to scan the QR code to connect to the setup network. Then, fill out the form on the network's captive portal page. Afterwards, the Scanner will try to connect to the Wi-Fi network.</p>
+<p>The Scanner will remember this setting for subsequent boot-ups, and you will only need to set up Wi-Fi again if the network connection fails upon subsequent boots.</p>
+<p><img alt="" src="/attachments/wifi-setup-phone.png" /></p>
+<blockquote>
+<p>Badger Scanners support Open, WPA2, and WPA2-Enterprise (PEAP) networks.</p>
+</blockquote>
+<h2 id="the-lifecycle">The Lifecycle</h2>
+<p>Your Scanner will begin to accept badge scans after boot-up.</p>
+<p>Depending on the Scanner's configuration, it may respond to badge scans with a RED, ORANGE, or GREEN LED. Depending on the Scanner's configuration, it may flush its scan buffer to the Badger Web Core (BWC) every 30 seconds in batches, or it may flush its scan buffer immediately after every scan. If the BLUE LED is on, that means that there are scans in its internal buffer that it hasn't flushed to the BWC yet.</p>
+<p>A Scanner may enter Passive Mode after its active timeout period has lapsed without any scans. In Passive Mode, the Scanner will poll for badges every 5 seconds; if a badge scan is detected, it will go back into Active Mode, where it scans constantly. When the WHITE LED is on, that means that it is looking for badges to scan.</p>
+<p>When a Scanner is asleep, it will not accept scans.</p>
+<h2 id="configuring-your-scanner">Configuring Your Scanner</h2>
+<p>See <a href="/scanner-configuration">Scanner Configuration</a>.</p>
+<h2 id="tips-and-notes">Tips and Notes</h2>
+<ul>
+<li>Badger Scanners use 3400-3500 mAh 18650 Li-ion batteries. The electrical disconnect switch will physically disconnect the battery from the circuit.</li>
+<li>Battery life heavily depends on duty cycling parameters and wireless network conditions. A typical charge will last around 8-10 hours under standard conditions.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../scanner-configuration/" class="btn btn-neutral float-right" title="Scanner Configuration">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+  </div>
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../scanner-configuration/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
